@@ -1,0 +1,20 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 800px;
+  width: 40%;
+  text-align: center;
+  border: 2px solid red;
+  margin: 2%;
+  margin-left: 4%;
+  position: fixed;
+}
+.name {
+  background-color: inherit;
+  font-size: 5vw;
+}
+.title {
+  background-color: inherit;
+  font-size: 2vw;
+}

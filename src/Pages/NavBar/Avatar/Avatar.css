@@ -1,0 +1,13 @@
+.avatar-container {
+  overflow: hidden;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  margin-left: 30%;
+}
+.avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+  border-radius: 50%;
+}
