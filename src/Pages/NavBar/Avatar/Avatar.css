@@ -1,13 +1,34 @@
 .avatar-container {
+  /* padding-top: 50px; */
   overflow: hidden;
   align-items: center;
   width: 350px;
   height: 350px;
-  margin-left: 30%;
 }
 .avatar {
   object-fit: cover;
   width: 100%;
   height: 350px;
   border-radius: 50%;
+}
+
+/* Styling for medium screens */
+@media (max-width: 768px) {
+  .avatar-container {
+    width: 250px;
+    height: 250px;
+    margin-left: 25%;
+  }
+}
+
+/* Styling for small screens */
+@media (max-width: 480px) {
+  .avatar-container {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
 }

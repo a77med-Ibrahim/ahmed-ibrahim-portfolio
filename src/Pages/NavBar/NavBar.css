@@ -2,13 +2,11 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 800px;
+  height: 100%;
   width: 40%;
   text-align: center;
-  border: 2px solid red;
   margin: 2%;
   margin-left: 4%;
-  position: fixed;
 }
 .name {
   background-color: inherit;
@@ -17,4 +15,18 @@
 .title {
   background-color: inherit;
   font-size: 2vw;
+}
+@media (max-width: 480px) {
+  .nav-bar {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .title {
+    font-size: 30px;
+  }
 }
