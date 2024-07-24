@@ -1,4 +1,6 @@
 import "./Education.css";
+import React, { useEffect, useState } from "react";
+
 function Education() {
   return (
     <div>
@@ -11,4 +13,5 @@ function Education() {
     </div>
   );
 }
+
 export default Education;

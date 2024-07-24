@@ -1,5 +1,6 @@
 import Education from "./Education/Education";
 import Languages from "./Languages/Languages";
+
 function AboutMe() {
   return (
     <div>
@@ -8,4 +9,5 @@ function AboutMe() {
     </div>
   );
 }
+
 export default AboutMe;
