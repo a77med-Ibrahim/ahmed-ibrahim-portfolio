@@ -56,7 +56,7 @@ const services = [
     icon: unity,
   },
   {
-    title: "Machine Learning Developer",
+    title: "ML Developer",
     icon: ML,
   },
 ];
