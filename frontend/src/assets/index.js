@@ -22,11 +22,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mySql from "./tech/MySql.png";
+import pBI from "./tech/PowerBI.png";
+import azure from "./tech/Azure.png";
+import androidstudio from "./tech/AndroidStudio.png";
+import access from "./tech/Access.png";
 
+import marmaracenter from "./company/MarmaraCenter.jpg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import earTech from "./company/EarTech.png";
+import gcm from "./company/GCM.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -63,4 +71,12 @@ export {
   tripguide,
   unity,
   ML,
+  earTech,
+  marmaracenter,
+  gcm,
+  mySql,
+  pBI,
+  azure,
+  androidstudio,
+  access,
 };
