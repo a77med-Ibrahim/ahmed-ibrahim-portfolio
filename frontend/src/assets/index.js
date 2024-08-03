@@ -39,6 +39,9 @@ import gcm from "./company/GCM.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import expensesmanager from "./ExpensesManager.png";
+import algolingo from "./Algolingo.png";
+import calculator from "./Calculator.png";
 
 export {
   logo,
@@ -79,4 +82,7 @@ export {
   azure,
   androidstudio,
   access,
+  expensesmanager,
+  algolingo,
+  calculator,
 };

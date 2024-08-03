@@ -33,6 +33,9 @@ import {
   azure,
   androidstudio,
   access,
+  expensesmanager,
+  algolingo,
+  calculator,
 } from "../assets";
 
 export const navLinks = [
@@ -134,7 +137,7 @@ const experiences = [
     points: [
       "Learned about different types of project management approaches.",
       "Worked on Linux OS, which gave me an understanding of linux and how to use it.",
-      "FILLLLLLLLLL...",
+      "Project Management using Microsoft Azure.",
     ],
   },
   {
@@ -191,67 +194,64 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Algolingo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web application that aims to enhance students' understanding of Data Structures and Algorithms in a visual and interactive way.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: algolingo,
+    source_code_link:
+      "https://github.com/ahmedIbrahim84201/AlgoLingo_Senior_Project",
   },
   {
-    name: "Job IT",
+    name: "Expenses Manager",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application platform that allows users to keep track of their expenses visually.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: expensesmanager,
+    source_code_link: "https://github.com/ahmedIbrahim84201/expenses-manager",
   },
+
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Calculator",
+    description: "A simple Calculator that performs simple operations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: calculator,
+    source_code_link: "https://github.com/ahmedIbrahim84201/Calculator",
   },
 ];
 
