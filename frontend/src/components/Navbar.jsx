@@ -22,7 +22,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer ">
-            Ahmed Ibrhaim &nbsp;
+            Ahmed Ibrahim &nbsp;
             <span className="sm:block hidden"> | Computer Engieer</span>
           </p>
         </Link>
