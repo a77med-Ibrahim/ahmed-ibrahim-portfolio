@@ -1,15 +1,12 @@
 import { useState, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
-
-//qEqGVwdtoMgXDilaL
-//template_kmxomqq
-//service_6kb6wm8
+import { github } from "../assets";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -107,6 +104,7 @@ const Contact = () => {
               text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
+
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit 
@@ -114,8 +112,38 @@ const Contact = () => {
           >
             {loading ? "sending..." : "Send"}
           </button>
-
         </form>
+
+        <div className="flex gap-1 items-center justify-center">
+          <button
+            className="bg-tertiary mt-5 py-4 px-6 text-white rounded-lg outline-none border-none font-medium shadow-md shadow-primary rounded-xl"
+            onClick={() =>
+              window.open("https://github.com/ahmedIbrahim84201", "_blank")
+            }
+          >
+            GitHub
+          </button>
+
+          <button
+            className="bg-tertiary mt-5 py-4 px-6 text-white rounded-lg outline-none border-none font-medium shadow-md shadow-primary rounded-xl"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/ahmed-ibrahim-a7med/",
+                "_blank"
+              )
+            }
+          >
+            Linkedin
+          </button>
+          <button
+            className="bg-tertiary mt-5 py-4 px-6 text-white rounded-lg outline-none border-none font-medium shadow-md shadow-primary rounded-xl"
+            onClick={() =>
+              window.open("mailto:ahmedibrahim51836@gmail.com", "_blank")
+            }
+          >
+            Email
+          </button>
+        </div>
       </motion.div>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
