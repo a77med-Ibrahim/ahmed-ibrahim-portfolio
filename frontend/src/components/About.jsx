@@ -38,11 +38,11 @@ const About = () => {
         className="mt-4 text-secondary
         text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and
-        TypeScript, specializing in ReactJS. I'm new to Three.js but have
-        experience in app development using Android Studio and Flutter, game
-        development using Unity, and machine learning. I'm a quick learner and
-        work closely with clients to create efficient, scalable, and
+        I'm a skilled Full-Stack developer with experience in JavaScript,
+        TypeScript, and C#, specializing in ReactJS, and .Net. I'm new to
+        Three.js but have experience in app development using Android Studio and
+        Flutter, game development using Unity, and machine learning. I'm a quick
+        learner and work closely with clients to create efficient, scalable, and
         user-friendly solutions that solve real-world problems. Let's work
         together to bring your ideas to life!
       </motion.p>

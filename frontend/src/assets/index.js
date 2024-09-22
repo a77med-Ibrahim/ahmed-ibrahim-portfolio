@@ -10,6 +10,7 @@ import unity from "./unity.png";
 import ML from "./ML.png";
 
 import css from "./tech/css.png";
+import Dotnet from "./tech/Dotnet.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -85,4 +86,5 @@ export {
   expensesmanager,
   algolingo,
   calculator,
+  Dotnet,
 };
