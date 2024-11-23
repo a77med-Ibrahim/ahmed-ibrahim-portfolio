@@ -23,6 +23,7 @@ import {
   expensesmanager,
   algolingo,
   calculator,
+  NA,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +116,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full-Stack Intern",
+    company_name: "Temo e.k",
+    icon: NA,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Present",
+    points: [
+      "Collaborating with a team to develop a hospital management system featuring role-based access, task management,and secure authentication, utilizing CSS, HTML, JavaScript, and .NET technologies.",
+      "Implementing key functionalities in a scalable hospital system, including secure user authentication and task management to enhance operational eﬀiciency and role-based access control.",
+      "Contributing to the frontend and backend development of a hospital system, improving workflow eﬀiciency through the integration of advanced security measures and role management using modern web technologies.",
+    ],
+  },
   {
     title: "DevOps Intern",
     company_name: "EarTech",

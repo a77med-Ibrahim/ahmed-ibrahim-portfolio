@@ -35,6 +35,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import earTech from "./company/EarTech.png";
+import NA from "./company/NA.png";
+
 import gcm from "./company/GCM.png";
 
 import carrent from "./carrent.png";
@@ -87,4 +89,5 @@ export {
   algolingo,
   calculator,
   Dotnet,
+  NA,
 };

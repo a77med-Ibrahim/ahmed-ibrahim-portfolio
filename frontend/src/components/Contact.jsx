@@ -118,7 +118,7 @@ const Contact = () => {
           <button
             className="bg-tertiary mt-5 py-4 px-6 text-white rounded-lg outline-none border-none font-medium shadow-md shadow-primary rounded-xl"
             onClick={() =>
-              window.open("https://github.com/ahmedIbrahim84201", "_blank")
+              window.open("https://github.com/a77med-Ibrahim", "_blank")
             }
           >
             GitHub
